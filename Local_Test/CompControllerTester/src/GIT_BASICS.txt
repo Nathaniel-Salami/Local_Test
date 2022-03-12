@@ -1,0 +1,22 @@
+====== GITHUB / GIT BASICS ========
+
+Setup Github credentials on cli/ cmd
+
+1
+
+1. create Repo on Github website
+
+2. clone Repository onto local: git clone GITHUB_REPO_HTTPS_URL
+
+
+
+add file to staging area: git add FILE_NAME
+    (use "." to add all files)
+
+view files to staging area: git status
+
+    OR
+
+commit changes in staging area to local repository: git commit -m 'your message'
+
+push changes to remote Github repository: git push -u origin master
